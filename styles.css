@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+}
+
+/* Estilos para el navbar */
+.navbar {
+  background-color: #f8f9fa;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+/* Estilos para las cards de los proyectos */
+.card {
+  border: 1px solid #ddd;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.texto-justificado{
+text-align: justify;
+}
+
